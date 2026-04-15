@@ -102,18 +102,6 @@ export default async function ProductPage({ params }: ProductPageProps) {
             </div>
 
             <aside className="product-hero__aside">
-              {product.priceLabel ? (
-                <div className="product-pill">
-                  <span>Precio</span>
-                  <strong>{product.priceLabel}</strong>
-                </div>
-              ) : null}
-              {product.moq ? (
-                <div className="product-pill">
-                  <span>MOQ</span>
-                  <strong>{product.moq}</strong>
-                </div>
-              ) : null}
               {product.materials?.[0] ? (
                 <div className="product-pill">
                   <span>Material principal</span>

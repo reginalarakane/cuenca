@@ -70,8 +70,8 @@ export default function HomePage() {
 
             <div className="intro-band__note">
               <p>
-                Este micrositio muestra materiales, medidas aproximadas, acabados, precio y MOQ solo cuando aparecen
-                en la ficha tecnica.
+                Este micrositio muestra materiales, medidas aproximadas, acabados y notas relevantes para compartir la
+                coleccion con claridad.
               </p>
               <a href={`mailto:${getContactEmail()}`}>{getContactEmail()}</a>
             </div>

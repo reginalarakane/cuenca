@@ -47,7 +47,7 @@ export const collectionIntro = {
 
 export const collectionHighlights = [
   "Catalogo digital shareable con informacion real de producto.",
-  "Precios de referencia y MOQ solo cuando aparecen en la ficha tecnica.",
+  "Fichas limpias para compartir la pieza y captar interes sin friccion comercial.",
   "CTA de interes por pieza con fallback confiable a correo.",
 ] as const;
 
@@ -102,9 +102,9 @@ export const products: Product[] = [
       "Un set pensado para sumar textura mineral a la mesa, manteniendo una lectura sobria y contemporanea.",
     image: {
       src: "/products/portavasos.png",
-      alt: "Set de portavasos de CUENCA en piedra volcanica con piezas de acento.",
-      width: 1536,
-      height: 1024,
+      alt: "Set de portavasos de CUENCA en piedra volcanica con una pieza de acento clara.",
+      width: 800,
+      height: 533,
     },
     materials: ["Piedra volcanica natural"],
     dimensions: [
@@ -126,7 +126,6 @@ export const products: Product[] = [
       "No pulido brillante.",
     ],
     accentMaterials: ["Red Warrior", "Tepeaca Pink", "Green Alabaster", "Orange Alabaster"],
-    priceLabel: "MX$115 x pieza",
     ctaLabel: "Quiero apartar / cotizar",
     ctaProductName: "Portavasos",
   },
@@ -171,8 +170,6 @@ export const products: Product[] = [
       "Cada lote puede incluir mezcla de materiales.",
     ],
     accentMaterials: ["Red Warrior", "Tepeaca Pink", "Green Alabaster", "Orange Alabaster"],
-    priceLabel: "MX$195 por pieza",
-    moq: "50 piezas",
     ctaLabel: "Me interesa este producto",
     ctaProductName: "Portavelas Esculturales",
   },
@@ -217,7 +214,6 @@ export const products: Product[] = [
       "La piedra debe encajar ligeramente dentro de la base, no solo apoyarse.",
       "Tallado tipo relieve de montana con pequeno volcan, crater central y bordes organicos.",
     ],
-    priceLabel: "MX$480 por pieza sin madera",
     ctaLabel: "Quiero apartar / cotizar",
     ctaProductName: "Difusor Aromatico",
   },

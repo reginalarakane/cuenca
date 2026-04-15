@@ -33,7 +33,6 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
           <h2>
             <Link href={`/producto/${product.slug}`}>{product.name}</Link>
           </h2>
-          {product.priceLabel ? <span className="product-card__price">{product.priceLabel}</span> : null}
         </div>
 
         <p className="product-card__summary">{product.summary}</p>
@@ -43,12 +42,6 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
             <>
               <dt>Material</dt>
               <dd>{product.materials[0]}</dd>
-            </>
-          ) : null}
-          {product.moq ? (
-            <>
-              <dt>MOQ</dt>
-              <dd>{product.moq}</dd>
             </>
           ) : null}
         </dl>
