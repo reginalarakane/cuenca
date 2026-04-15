@@ -101,10 +101,10 @@ export const products: Product[] = [
     intro:
       "Un set pensado para sumar textura mineral a la mesa, manteniendo una lectura sobria y contemporanea.",
     image: {
-      src: "/products/portavasos.png",
+      src: "/products/portavasos-20260415.png",
       alt: "Set de portavasos de CUENCA en piedra volcanica con una pieza de acento clara.",
-      width: 800,
-      height: 533,
+      width: 1536,
+      height: 1024,
     },
     materials: ["Piedra volcanica natural"],
     dimensions: [
