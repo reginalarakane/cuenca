@@ -138,8 +138,8 @@ export const products: Product[] = [
     intro:
       "La intencion no es la perfeccion torneada sino una presencia mas cruda, tactil y unica.",
     image: {
-      src: "/products/portavelas-esculturales.png",
-      alt: "Portavelas Esculturales de CUENCA tallados en piedra natural.",
+      src: "/products/portavelas-esculturales-20260415.png",
+      alt: "Portavelas Esculturales de CUENCA en agrupacion de piedras naturales con velas taper.",
       width: 1536,
       height: 1024,
     },
