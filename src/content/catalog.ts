@@ -61,10 +61,10 @@ export const products: Product[] = [
     intro:
       "Una pieza compacta y antropomorfa para mesa, pensada como figura escultorica funcional.",
     image: {
-      src: "/products/salero-pimentero-totem.png",
-      alt: "Salero y pimentero Totem de CUENCA en piedra volcanica.",
-      width: 800,
-      height: 533,
+      src: "/products/salero-pimentero-totem-20260415.png",
+      alt: "Salero y pimentero Totem de CUENCA en piedra volcanica con tapas metalicas.",
+      width: 1536,
+      height: 1024,
     },
     materials: ["Piedra volcanica solida", "Tapon removible de corcho"],
     dimensions: [
@@ -101,10 +101,10 @@ export const products: Product[] = [
     intro:
       "Un set pensado para sumar textura mineral a la mesa, manteniendo una lectura sobria y contemporanea.",
     image: {
-      src: "/products/portavasos-20260415.png",
-      alt: "Set de portavasos de CUENCA en piedra volcanica con una pieza de acento clara.",
-      width: 1536,
-      height: 1024,
+      src: "/products/portavasos-20260415-v2.png",
+      alt: "Set de portavasos de CUENCA en piedra volcanica con piezas de acento en piedra pulida.",
+      width: 800,
+      height: 533,
     },
     materials: ["Piedra volcanica natural"],
     dimensions: [
@@ -182,10 +182,10 @@ export const products: Product[] = [
     intro:
       "El aceite se coloca en el crater central y la piedra porosa difunde lentamente el aroma.",
     image: {
-      src: "/products/difusor-aromatico.png",
-      alt: "Difusor Aromatico de CUENCA en piedra volcanica con base de madera.",
-      width: 1536,
-      height: 1024,
+      src: "/products/difusor-aromatico-20260415.jpg",
+      alt: "Difusor Aromatico de CUENCA con relieve montanoso en piedra volcanica.",
+      width: 800,
+      height: 533,
     },
     concept: [
       "Un bloque de piedra volcanica tallado como un pequeno paisaje.",
