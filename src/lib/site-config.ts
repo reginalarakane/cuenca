@@ -1,4 +1,4 @@
-export const siteOrigin = "https://luisvega93.github.io";
+export const siteOrigin = "https://reginalarakane.github.io";
 export const siteBasePath = "/cuenca";
 export const siteName = "CUENCA";
 export const siteLocale = "es-MX";
