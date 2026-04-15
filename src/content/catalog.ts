@@ -61,7 +61,7 @@ export const products: Product[] = [
     intro:
       "Una pieza compacta y antropomorfa para mesa, pensada como figura escultorica funcional.",
     image: {
-      src: "/products/salero-pimentero-totem-20260415.png",
+      src: "/products/salero-pimentero-totem-20260415.jpg",
       alt: "Salero y pimentero Totem de CUENCA en piedra volcanica con tapas metalicas.",
       width: 1536,
       height: 1024,
@@ -138,7 +138,7 @@ export const products: Product[] = [
     intro:
       "La intencion no es la perfeccion torneada sino una presencia mas cruda, tactil y unica.",
     image: {
-      src: "/products/portavelas-esculturales-20260415.png",
+      src: "/products/portavelas-esculturales-20260415.jpg",
       alt: "Portavelas Esculturales de CUENCA en agrupacion de piedras naturales con velas taper.",
       width: 1536,
       height: 1024,
