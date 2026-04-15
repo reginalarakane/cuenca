@@ -6,6 +6,13 @@ import { buildSiteUrl, siteName } from "@/lib/site-config";
 const collectionDescription =
   "Micrositio catálogo para la nueva colección de CUENCA: objetos escultóricos en piedra volcánica y materiales de acento para mesa, ritual y presencia material.";
 
+const homeSocialImage = {
+  path: "/og-cuenca-home.jpg",
+  width: 1200,
+  height: 800,
+  alt: "Salero y pimentero Tótem de CUENCA en piedra volcánica.",
+} as const;
+
 export function buildHomeMetadata(): Metadata {
   return {
     title: `${siteName} | Colección 2026`,
@@ -22,10 +29,10 @@ export function buildHomeMetadata(): Metadata {
       locale: "es_MX",
       images: [
         {
-          url: buildSiteUrl("/products/salero-pimentero-totem.png"),
-          width: 800,
-          height: 533,
-          alt: "Salero y pimentero Tótem en piedra volcánica.",
+          url: buildSiteUrl(homeSocialImage.path),
+          width: homeSocialImage.width,
+          height: homeSocialImage.height,
+          alt: homeSocialImage.alt,
         },
       ],
     },
@@ -33,7 +40,7 @@ export function buildHomeMetadata(): Metadata {
       card: "summary_large_image",
       title: `${siteName} | Colección 2026`,
       description: collectionDescription,
-      images: [buildSiteUrl("/products/salero-pimentero-totem.png")],
+      images: [buildSiteUrl(homeSocialImage.path)],
     },
   };
 }
