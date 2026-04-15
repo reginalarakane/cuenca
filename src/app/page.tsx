@@ -30,8 +30,8 @@ export default function HomePage() {
                 </Link>
                 <InterestLink
                   className="button button--ghost"
-                  label="Solicitar interes de la coleccion"
-                  productName="Coleccion 2026 CUENCA"
+                  label="Solicitar interés de la colección"
+                  productName="Colección 2026 CUENCA"
                 />
               </div>
             </div>
@@ -55,17 +55,17 @@ export default function HomePage() {
         <section className="intro-band">
           <div className="site-shell intro-band__grid">
             <div>
-              <p className="eyebrow">Lectura de coleccion</p>
+              <p className="eyebrow">Lectura de colección</p>
               <p className="intro-band__statement">
-                Cuatro piezas nuevas para mesa y ritual: piedra volcanica, contrastes tactiles y una presencia
-                escultorica que se comparte mejor como objeto que como simple SKU.
+                Cuatro piezas nuevas para mesa y ritual: piedra volcánica, contrastes táctiles y una presencia
+                escultórica que se comparte mejor como objeto que como simple SKU.
               </p>
             </div>
 
             <div className="intro-band__note">
               <p>
                 Este micrositio muestra materiales, medidas aproximadas, acabados y notas relevantes para compartir la
-                coleccion con claridad.
+                colección con claridad.
               </p>
               <a href={`mailto:${getContactEmail()}`}>{getContactEmail()}</a>
             </div>
@@ -76,8 +76,8 @@ export default function HomePage() {
           <div className="site-shell">
             <div className="section-heading">
               <div>
-                <p className="eyebrow">Catalogo</p>
-                <h2>Piezas disponibles para compartir, cotizar y medir interes.</h2>
+                <p className="eyebrow">Catálogo</p>
+                <h2>Piezas disponibles para compartir, cotizar y medir interés.</h2>
               </div>
             </div>
 

@@ -93,7 +93,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
           <div className="site-shell product-hero__grid">
             <div>
               <Link className="back-link" href="/">
-                Volver a la coleccion
+                Volver a la colección
               </Link>
               <p className="eyebrow">{product.eyebrow}</p>
               <h1>{product.name}</h1>
@@ -150,8 +150,8 @@ export default async function ProductPage({ params }: ProductPageProps) {
             <div className="product-detail__side">
               {product.materials ? <BulletList items={product.materials} title="Materiales" /> : null}
               {product.finishes ? <BulletList items={product.finishes} title="Acabados" /> : null}
-              {product.setDetails ? <BulletList items={product.setDetails} title="Composicion del set" /> : null}
-              {product.productionNotes ? <BulletList items={product.productionNotes} title="Notas de produccion" /> : null}
+              {product.setDetails ? <BulletList items={product.setDetails} title="Composición del set" /> : null}
+              {product.productionNotes ? <BulletList items={product.productionNotes} title="Notas de producción" /> : null}
               {product.accentMaterials ? <BulletList items={product.accentMaterials} title="Materiales de acento" /> : null}
             </div>
           </div>

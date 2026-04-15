@@ -8,8 +8,8 @@ export function SiteFooter() {
           <p className="eyebrow">Contacto</p>
           <p className="site-footer__brand">CUENCA</p>
           <p className="site-footer__copy">
-            Catalogo digital para compartir la nueva coleccion con clientes actuales y medir interes antes de definir
-            produccion.
+            Catálogo digital para compartir la nueva colección con clientes actuales y medir interés antes de definir
+            producción.
           </p>
         </div>
 
@@ -21,10 +21,10 @@ export function SiteFooter() {
         </div>
 
         <div>
-          <p className="site-footer__label">CTA de interes</p>
+          <p className="site-footer__label">CTA de interés</p>
           <p className="site-footer__copy">
             {hasInterestFormConfigured()
-              ? "Google Form configurado para captacion por pieza."
+              ? "Google Form configurado para captación por pieza."
               : "Fallback operativo por correo mientras se conecta el Google Form final."}
           </p>
         </div>

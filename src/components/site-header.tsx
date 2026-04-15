@@ -9,7 +9,7 @@ export function SiteHeader() {
         </Link>
 
         <nav aria-label="Principal" className="site-header__nav">
-          <Link href="/#coleccion">Coleccion</Link>
+          <Link href="/#coleccion">Colección</Link>
           <Link href="/#productos">Productos</Link>
           <Link href="/#contacto">Contacto</Link>
         </nav>

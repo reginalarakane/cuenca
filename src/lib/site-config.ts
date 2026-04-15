@@ -50,13 +50,7 @@ export function buildInterestHref(productName: string) {
 
   const subject = encodeURIComponent(`Interés en ${productName} | CUENCA`);
   const body = encodeURIComponent(
-    [
-      "Hola CUENCA,",
-      "",
-      `Me interesa recibir más información sobre: ${productName}.`,
-      "",
-      "Gracias.",
-    ].join("\n"),
+    ["Hola CUENCA,", "", `Me interesa recibir más información sobre: ${productName}.`, "", "Gracias."].join("\n"),
   );
 
   return {
