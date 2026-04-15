@@ -5,7 +5,7 @@ import { InterestLink } from "@/components/interest-link";
 import { ProductCard } from "@/components/product-card";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
-import { collectionHighlights, collectionIntro, products } from "@/content/catalog";
+import { collectionIntro, products } from "@/content/catalog";
 import { getContactEmail, withBasePath } from "@/lib/site-config";
 
 export default function HomePage() {
@@ -34,12 +34,6 @@ export default function HomePage() {
                   productName="Coleccion 2026 CUENCA"
                 />
               </div>
-
-              <ul className="hero__highlights">
-                {collectionHighlights.map((highlight) => (
-                  <li key={highlight}>{highlight}</li>
-                ))}
-              </ul>
             </div>
 
             <div className="hero__media">
@@ -85,36 +79,12 @@ export default function HomePage() {
                 <p className="eyebrow">Catalogo</p>
                 <h2>Piezas disponibles para compartir, cotizar y medir interes.</h2>
               </div>
-              <p className="section-heading__body">
-                Cada ficha abre una URL individual lista para compartir con clientes y volver sobre la pieza con
-                contexto suficiente.
-              </p>
             </div>
 
             <div className="product-grid">
               {products.map((product, index) => (
                 <ProductCard key={product.slug} priority={index < 2} product={product} />
               ))}
-            </div>
-          </div>
-        </section>
-
-        <section className="cta-panel">
-          <div className="site-shell cta-panel__grid">
-            <div>
-              <p className="eyebrow">Siguiente paso</p>
-              <h2>Listo para compartir con clientes actuales y empezar a leer la respuesta por pieza.</h2>
-            </div>
-
-            <div className="cta-panel__actions">
-              <InterestLink
-                className="button button--primary"
-                label="Quiero compartir la coleccion"
-                productName="Coleccion 2026 CUENCA"
-              />
-              <Link className="button button--ghost" href={`/producto/${featuredProduct.slug}`}>
-                Ver ficha destacada
-              </Link>
             </div>
           </div>
         </section>
