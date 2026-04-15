@@ -4,7 +4,7 @@ export const siteName = "CUENCA";
 export const siteLocale = "es-MX";
 
 export const staticSiteConfig = {
-  contactEmail: "reginalarakane@gmail.com",
+  contactEmail: "regislaka@gmail.com",
   interestForm: {
     openUrl: "",
     productEntryId: "",

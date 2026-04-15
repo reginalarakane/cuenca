@@ -30,4 +30,4 @@ npm run build
 
 - URL objetivo: `https://reginalarakane.github.io/cuenca/`
 - El repo usa `output: "export"` y publica la carpeta `out/`
-- Si el Google Form final aun no esta configurado, el CTA cae automaticamente a `mailto:reginalarakane@gmail.com`
+- Si el Google Form final aun no esta configurado, el CTA cae automaticamente a `mailto:regislaka@gmail.com`
