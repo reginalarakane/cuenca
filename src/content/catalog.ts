@@ -61,10 +61,10 @@ export const products: Product[] = [
     intro:
       "Una pieza compacta y antropomorfa para mesa, pensada como figura escultórica funcional.",
     image: {
-      src: "/products/salero-pimentero-totem-20260415.jpg",
-      alt: "Salero y pimentero Tótem de CUENCA en piedra volcánica con tapas metálicas.",
-      width: 1536,
-      height: 1024,
+      src: "/products/salero-pimentero-totem-20260417.jpg",
+      alt: "Salero y pimentero Tótem de CUENCA en piedra natural en acabado oscuro y claro.",
+      width: 800,
+      height: 533,
     },
     materials: ["Piedra volcánica sólida", "Tapón removible de corcho"],
     dimensions: [
